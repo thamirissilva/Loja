@@ -13,11 +13,6 @@
 </head>
 
 <body>
-	<style type="text/css">
-		body {
-			background: url('../imagens/background-supermercado-9.jpg');
-		}
-	</style>
 
 <nav class="red darken-4">
 	<ul>

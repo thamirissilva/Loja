@@ -12,9 +12,7 @@
 <body>
 	
 	<style type="text/css">
-			body {
-				background: url('../imagens/background-supermercado-9.jpg');
-			}
+			
 			main{
 				background-color: white;
 				/*opacity: 0.9;*/

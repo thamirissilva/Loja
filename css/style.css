@@ -1,5 +1,8 @@
 
-
+body{
+	background: url('../imagens/background-supermercado-9.jpg');
+	background-attachment: fixed; /*deixar a img fixada*/
+}
 /********** MENU **********/
 
 .menu_box {

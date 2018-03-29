@@ -7,6 +7,7 @@
 	<link type="text/css" rel="stylesheet" href="../css/materialize.css"/>
 	<meta name="viewport" content="width=device-width, inicial-scale=1.0">
 </head>
+
 <body>
 	<!-- Formulário para edição de produtos -->
 	<?php
@@ -45,7 +46,7 @@
 
 	</form>
 	</div>
-	
+
 <br>
 <br>
 <br>
