@@ -1,0 +1,94 @@
+
+/********** MENU **********/
+
+.menu_box {
+
+	/*definimos a largura do box*/
+	width:95% !important;
+	/* definimos a altura do box */
+	height:40px  !important;
+	/* definimos a cor de fundo do box */
+	background-color:#b71c1c  !important;
+	/* definimos o quão arredondado irá ficar nosso box */
+	border-radius: 10px 20px  !important; /*esquerda e direita*/
+	
+	padding:20px  !important; /*espaçamento interno*/
+    margin-top: 15px; /*espaçamento externo*/
+    margin-bottom: 25px  !important;
+    margin-left: 1%  !important;
+}
+
+.menuhori{
+	padding: 2px 10px;
+    display: inline-block;
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+
+}
+
+.menu_box li {
+	display: inline !important; /*colocando li lado a lado*/
+}
+
+.menu_box a{
+	padding:10px !important; /*espaçamento interno*/
+    margin: 15px !important; /*espaçamento externo*/
+	font-family: verdana !important;
+	color: white !important;
+	font-size: 20px !important;
+	text-decoration-line: none !important;
+}
+
+/********** FORMULÁRIO **********/
+
+.form{
+	background-color:#ffebee;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-right:auto;
+	margin-left:auto;
+	border-radius: 10px;
+	border: solid #901;
+	font-family: verdana;
+	display: table; /*Caixa no centro*/
+}
+
+.form input{
+	margin: 5px;
+}
+
+
+/********* BOTÃO (VIEWPRODUTOS) **********/
+
+div .botao{
+  background-color: #b71c1c;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  margin-right: 1%;
+  margin-left: 1%;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+/*
+.form input[type=submit] {
+	display:block; /*Quebra de elementos, para ficar um abaixo do outro
+	font-size: 15pt;
+	border-radius: 5px;
+	margin: 15px;
+	width: 85%;
+	height: auto;
+	cursor:pointer; /*cursor em forma de mão
+	}
+	*/
