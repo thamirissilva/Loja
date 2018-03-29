@@ -5,16 +5,19 @@
 	<title>Novo Produto</title>
 
 	<!-- Fontes do google -->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="../css/materialize.css"/>
-
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../css/materialize.css"/>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<meta name="viewport" content="width=device-width, inicial-scale=1.0">
 
 </head>
 
 <body>
+	<style type="text/css">
+		body {
+			background: url('../imagens/background-supermercado-9.jpg');
+		}
+	</style>
 
 <nav class="red darken-4">
 	<ul>
@@ -26,9 +29,11 @@
 	</ul>
 	</nav>
 
+<main>
 	<div>
 	<!-- Formulário de cadastro do produto -->
-	<form action="../controller/createproduto.php" method="POST" class="form">
+	<form action="../controller/createproduto.php" method="POST" 
+	class="form">
 
 		<h2> Cadastro de Produtos </h2>
 
@@ -45,6 +50,7 @@
 		
 	</form>
 	</div>
+</main>
 
 <footer class="page-footer red darken-4">
           <div class="container">

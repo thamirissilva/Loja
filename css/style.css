@@ -1,4 +1,5 @@
 
+
 /********** MENU **********/
 
 .menu_box {
@@ -18,16 +19,17 @@
     margin-left: 1%  !important;
 }
 
-.menuhori{
+/*
+.menuhorizontal{
 	padding: 2px 10px;
     display: inline-block;
-    /* visual do link */
+    /* visual do link 
     background-color:#EDEDED;
     color: #333;
     text-decoration: none;
     border-bottom:3px solid #EDEDED;
-
 }
+*/
 
 .menu_box li {
 	display: inline !important; /*colocando li lado a lado*/
@@ -45,7 +47,7 @@
 /********** FORMULÁRIO **********/
 
 .form{
-	background-color:#ffebee;
+	background-color:white;
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-bottom: 30px;
@@ -54,7 +56,6 @@
 	margin-right:auto;
 	margin-left:auto;
 	border-radius: 10px;
-	border: solid #901;
 	font-family: verdana;
 	display: table; /*Caixa no centro*/
 }

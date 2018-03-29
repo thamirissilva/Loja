@@ -10,6 +10,27 @@
 </head>
 
 <body>
+	
+	<style type="text/css">
+			body {
+				background: url('../imagens/background-supermercado-9.jpg');
+			}
+			main{
+				background-color: white;
+				/*opacity: 0.9;*/
+				height: 100%;
+				margin-left:1%;
+				margin-right:1%;
+				padding-left: 1%;
+				padding-right: 1%;
+				border-radius: 10px;			
+			}
+	</style>
+ 
+ 
+
+	<div>	
+
 	<!-- Inserindo arquivos -->
 	<?php 
 		include("../conexao.php"); 
@@ -19,8 +40,10 @@
 		$sql = "SELECT *FROM tbprodutos";
 		$consulta = mysqli_query($conn, $sql);
 	?>
+</div>
 
 
+<main>
 	
 <div class="row">
 		
@@ -30,6 +53,18 @@
 		<a href="viewnovoproduto.php" class="botao"> Novo Produto </a>
 		</div>
 
+		<br>
+		<br>
+
+<div class="tabela">
+	<style type="text/css">
+		div .tabela td{
+			font-family: verdana;
+			color: #900;
+		}
+	</style>
+		
+	</style>
 	<!-- Tabela Produtos -->
 	<?php
 		echo "<table>";
@@ -55,9 +90,12 @@
 			
 		echo "</table>";
 ?>
+		</div>
 
-</div>
+	</div>
 
+</main>
+<br>
 
 <footer class="page-footer red darken-4">
           <div class="container">

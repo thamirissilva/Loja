@@ -38,13 +38,9 @@
 
 
 
-
-
-
-
 <footer class="page-footer red darken-4">
           <div class="container">
-            <div class="row">
+            <div class="row"
               <div class="col l6 s12">
                 <h5 class="white-text">Sobre Nós</h5>
                 <p class="grey-text text-lighten-4">TEXTO</p>
