@@ -1,4 +1,4 @@
-
+ 
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,18 +18,17 @@
 	<ul>
 		<li><a href="../index.php"> Home </a></li>
 		<li><a href="viewprodutos.php"> Produtos  </a></li>
-		<li><a href="../model/clientes.php"> Clientes </a></li>
+		<li><a href="viewclientes.php"> Clientes </a></li>
 		<li><a href="../model/pedidos.php"> Pedidos </a></li>
 		<li><a href="../model/carrinho.php"> Carrinho</a></li>
 	</ul>
-	</nav>
+</nav>
 
 <main>
+
 	<div>
 	<!-- Formulário de cadastro do produto -->
-	<form action="../controller/createproduto.php" method="POST" 
-	class="form">
-
+	<form action="../controller/createproduto.php" method="POST" class="form">
 		<h2> Cadastro de Produtos </h2>
 
 		Nome:  
@@ -45,6 +44,7 @@
 		
 	</form>
 	</div>
+
 </main>
 
 <footer class="page-footer red darken-4">
