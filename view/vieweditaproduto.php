@@ -26,11 +26,8 @@
 
 		while($registro = mysqli_fetch_assoc($consulta)){
 	?>
-	
-	<div>
 	<!-- Formuário que edita -->
 	<form action="../controller/editproduto.php" method="POST" class="form">
-		
 		<h2> Cadastro de Produtos </h2>
 
 		Nome:  
