@@ -6,6 +6,7 @@
    <link rel="stylesheet" type="text/css" href="../css/style.css">
    <link rel="stylesheet" type="text/css" href="../css/materialize.css">
    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 

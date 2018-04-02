@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Home</title>
-
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/materialize.css">
 </head>
@@ -12,11 +13,24 @@
 
 <body>
 	
+
+<!--
+	Icones
+
+  Tamanhos:
+  tiny: 1rem
+  small: 2rem
+  medium: 4rem
+  large: 6rem
+
+ <i class="large material-icons">insert_chart</i> */
+
+-->
+
 	<?php 
 	include("conexao.php");
-	include ("view/menu.php");
-	include ("controller/crudprodutos.php");
-    ?>
+  include ("view/menu.php");
+  ?>
 
 
 <br>
