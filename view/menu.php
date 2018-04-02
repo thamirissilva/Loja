@@ -15,7 +15,7 @@
 	<ul>
 		<li><a href="../index.php"> Home </a></li>
 		<li><a href="viewprodutos.php"> Produtos  </a></li>
-		<li><a href="../model/clientes.php"> Clientes </a></li>
+		<li><a href="viewclientes.php"> Clientes </a></li>
 		<li><a href="../model/pedidos.php"> Pedidos </a></li>
 		<li><a href="../model/carrinho.php"> Carrinho</a></li>
 	</ul>
