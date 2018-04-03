@@ -13,7 +13,6 @@
 <body>
 	
 	<style type="text/css">
-			
 			main{
 				background-color: white;
 				/*opacity: 0.9;*/
@@ -63,7 +62,6 @@
 		}
 	</style>
 		
-	</style>
 	<!-- Tabela Produtos -->
 	<?php
 		echo "<table>";
@@ -73,7 +71,7 @@
 				echo "<td> Quantidade </td>";
 				echo "<td> Ações </td>";
 			echo "</tr>";
-			//laço que recbe os produtos
+			//laço que recebe os produtos
 				while($registro = mysqli_fetch_assoc($consulta)){
 					echo "<tr>";
 						//informações dos produtos
@@ -83,7 +81,7 @@
 
 						//botões edita e exclui por linha do produto estão na mesma td
 						echo "<td><a href='vieweditaproduto.php?'> Edita</a> &nbsp";
-						echo "<a href='excluiproduto.php'> Exclui</a></td>";
+						echo "<a href='../controller/deleteproduto.php'> Exclui</a></td>";
 					echo "</tr>";
 				}
 			
