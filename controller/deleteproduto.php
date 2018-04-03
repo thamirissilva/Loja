@@ -4,5 +4,5 @@
 
 	//realiza a exclusão do produto selecionado
 	 $excluiproduto= "DELETE FROM tbprodutos where id_produto='$codigo'";
-     $exclui = mysqli_query($conn,$excluiproduto);
+     $exclui = mysqli_query($conn , $excluiproduto);
 ?>
