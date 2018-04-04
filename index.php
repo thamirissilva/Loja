@@ -28,10 +28,18 @@
 -->
 
 	<?php 
-	include("conexao.php");
-  include ("view/menu.php");
+	include("conexao/conexao.php");
   ?>
 
+  <nav class="red darken-4">
+  <ul>
+    <li><a href="view/index.php"> Home </a></li>
+    <li><a href="view/viewprodutos.php"> Produtos  </a></li>
+    <li><a href="view/viewclientes.php"> Clientes </a></li>
+    <li><a href="../model/pedidos.php"> Pedidos </a></li>
+    <li><a href="../model/carrinho.php"> Carrinho</a></li>
+  </ul>
+  </nav>
 
 <br>
 <br>

@@ -17,7 +17,7 @@
 		//recebe codigo 
 		//$codigo = $_GET['codigo'];
 
-		include("../conexao.php"); 
+		include("../conexao/conexao.php"); 
 		include("menu.php");
 
 		//puxa informações do banco WHERE id_produto = '$codigo'

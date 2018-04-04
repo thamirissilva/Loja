@@ -1,6 +1,6 @@
 <?php
 
-	include("../conexao.php");
+	include("../conexao/conexao.php");
 
 	//recebe informações
 	$nome = $_POST['nome'];
@@ -13,5 +13,5 @@
 	//incluir tratamento de erros aqui
 
 	//retorna para a index
-	header("../view/index.php");
-	?>
+	header("../index.php");
+?>

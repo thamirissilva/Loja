@@ -31,7 +31,7 @@
 
 	<!-- Inserindo arquivos -->
 	<?php 
-		include("../conexao.php"); 
+		include("../conexao/conexao.php"); 
 		include("menu.php");
 
 		//mostra informações do banco de todos os produtos

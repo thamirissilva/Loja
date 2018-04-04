@@ -31,7 +31,7 @@
 
 	<!-- Inserindo arquivos -->
 	<?php 
-		include("../conexao.php"); 
+		include("../conexao/conexao.php"); 
 		include("menu.php");
 
 		//mostra informações do banco de todos os produtos
@@ -80,8 +80,8 @@
 						echo "<td>".$registro['qntdproduto']."</td>";
 
 						//botões edita e exclui por linha do produto estão na mesma td
-						echo "<td><a href='vieweditaproduto.php?'> Edita</a> &nbsp";
-						echo "<a href='../controller/deleteproduto.php'> Exclui</a></td>";
+						echo "<td><a href='vieweditaproduto.php?'> Edita </a> &nbsp";
+						echo "<a href='../controller/deleteproduto.php'> Exclui </a></td>";
 					echo "</tr>";
 				}
 			
