@@ -27,8 +27,7 @@
  
  
 
-	<div>	
-
+<div>	
 	<!-- Inserindo arquivos -->
 	<?php 
 		include("../conexao/conexao.php"); 

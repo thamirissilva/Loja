@@ -14,9 +14,6 @@
 	<!-- Formulário para edição de produtos -->
 	<?php
 
-		//recebe codigo 
-		//$codigo = $_GET['codigo'];
-
 		include("../conexao/conexao.php"); 
 		include("menu.php");
 
@@ -26,6 +23,8 @@
 
 		while($registro = mysqli_fetch_assoc($consulta)){
 	?>
+
+	
 	<!-- Formuário que edita -->
 	<form action="../controller/editproduto.php" method="POST" class="form">
 		<h2> Cadastro de Produtos </h2>
