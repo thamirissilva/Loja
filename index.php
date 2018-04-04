@@ -8,6 +8,29 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/materialize.css">
+
+  <style type="text/css">
+    h1.bv{
+      text-align: center;
+      font-family: verdana;
+      font-weight: bold;
+    }
+    div.bv{
+      /*padding = margem de dentro*/
+      /*margin = margem de fora*/
+      padding-top: 5%; 
+      padding-bottom: 5%;
+      padding-right: 1%;
+      padding-left: 1%; 
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-right: 10%;
+      margin-left: 10%;
+      background-color: white;
+      border-radius: 10px;
+    }
+  </style>
+
 </head>
 
 
@@ -41,23 +64,11 @@
   </ul>
   </nav>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+  
+  <div class="bv">
+    <H1 class="bv">BEM VINDO(A) A LOJA VIRTUAL</H1>
+  </div>
 
 
 

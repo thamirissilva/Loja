@@ -1,5 +1,26 @@
 <?php
 
+	$id = filter_input(INPUT_GET,"id_cliente");
+
+	include("../conexao/conexao.php");
+
+	if($conn) {
+		$query = mysqli_query($conn, "delete from tbcliente where id_cliente='$id'");
+		if($query){
+			header("Location: ../view/viewclientes.php");
+		}
+		else{
+			die("Erro: " . mysqli_error($conn));
+		}
+	}
+
+	else{
+			die("Erro: " . mysqli_error($conn));
+		}
+
+?>
+
+<!--
 	include("../conexao/conexao.php");
 
 	if (getenv("REQUEST_METHOD") == "GET") {
@@ -18,4 +39,4 @@
 	echo "<br><a href=\"../index.php\">Voltar</a>";
  }
 
-?>
+-->
